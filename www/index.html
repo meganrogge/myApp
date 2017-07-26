@@ -39,7 +39,7 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title>Cold Caller</title>
 </head>
 
 <body>
@@ -171,11 +171,11 @@ span.psw {
 
 
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login or Sign Up</button>
 
 <div id="id01" class="modal">
 
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="action_page.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
@@ -188,6 +188,7 @@ span.psw {
       <input type="password" placeholder="Enter Password" name="psw" required>
 
       <button type="submit">Login</button>
+
       <input type="checkbox" checked="checked"> Remember me </input>
     </div>
 
